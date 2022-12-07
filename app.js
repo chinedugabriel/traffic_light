@@ -24,9 +24,9 @@ const motion = ()=>{
     if (setNum == 0){
 
         if(resetNum == 1){
-            redLight.style.backgroundColor = "yellow";
+            redLight.style.backgroundColor = "white";
             yellowLight.style.backgroundColor = "yellow";
-            greenLight.style.backgroundColor = "yellow";
+            greenLight.style.backgroundColor = "white";
             resetNum++;
         }else if(resetNum == 2){
             redLight.style.backgroundColor = "green";
@@ -36,8 +36,8 @@ const motion = ()=>{
             
         }else if(resetNum == 0){
             redLight.style.backgroundColor = "red";
-            yellowLight.style.backgroundColor = "red";
-            greenLight.style.backgroundColor = "red";
+            yellowLight.style.backgroundColor = "white";
+            greenLight.style.backgroundColor = "white";
             resetNum++;
             
         }
