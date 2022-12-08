@@ -14,7 +14,7 @@ let StartBtn = document.getElementById("Start");
 let StopBtn = document.getElementById("Stop");
 
 const motion = ()=>{
-    let setNum = inputSetTimer.value != "" ? eval(inputSetTimer.value) : 120;
+    let setNum = inputSetTimer.value != "" ? inputSetTimer.valueAsNumber : 120;
     // displayCounter.innerHTML = setNum;
     let resetNum = 1;
 
@@ -41,7 +41,7 @@ const motion = ()=>{
             resetNum++;
             
         }
-        setNum = inputSetTimer.value != "" ? eval(inputSetTimer.value) : 120;
+        setNum = inputSetTimer.value != "" ? inputSetTimer.valueAsNumber : 120;
 
     }
 
